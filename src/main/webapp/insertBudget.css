@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+body{
+	margin-top: 5%;
+	background: url("https://media.istockphoto.com/id/1453639789/photo/closeup-group-of-asian-business-people-meeting-discuss-project-plan-and-financial-results-in.webp?b=1&s=170667a&w=0&k=20&c=vNOjmWpL4Kwvjm8qDyoPhOQAWIkgfqhxYGQDLc60XTY=");
+	
+	
+	
+	
+	
+}
+
+.head{
+	width: 100%;
+	background-color:rgb(52, 109, 48) ;
+	height: 180px;
+	color: white;
+	font-size: 50px;
+	font-family:'Times New Roman', Times, serif ;
+	
+	
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Style labels and input fields */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add some spacing between form elements */
+br {
+    margin-bottom: 10px;
+}
+
+.findbudget{
+	height: 150px;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	background-color: black;
+	
+}
+.sure{
+	
+	background-color:black;
+	color: white;
+}
+

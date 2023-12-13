@@ -1,0 +1,412 @@
+@import "bourbon@5.*";
+
+body {
+  margin: 8%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(192, 192, 192);
+}
+
+.userd {
+  width: 100%;
+  max-width: 430px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.button-container {
+    display: flex;
+    gap: 20px; /* 20px gap between buttons */
+}
+
+.ud {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ud:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+/* Style for Your Details section */
+.card-list {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-list h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card-list h3::before {
+    content: '- ';
+    color: #007FFF;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+/* Style for the custom button */
+.custom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the custom button */
+.custom-button:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+
+ html {
+	 box-sizing: border-box;
+}
+ *, *:before, *:after {
+	 box-sizing: inherit;
+}
+ body {
+	 color: rgba(0, 0, 0, .87);
+}
+ a {
+	 color: rgba(38, 137, 13, 1);
+}
+ a:hover, a:focus {
+	 color: rgba(4, 106, 56, 1);
+}
+ .container {
+	 margin: 5% 3%;
+}
+ @media (min-width: 48em) {
+	 .container {
+		 margin: 2%;
+	}
+}
+ @media (min-width: 75em) {
+	 .container {
+		 margin: 2em auto;
+		 max-width: 75em;
+	}
+}
+ .responsive-table {
+	 width: 100%;
+	 margin-bottom: 1.5em;
+	 border-spacing: 0;
+}
+ @media (min-width: 48em) {
+	 .responsive-table {
+		 font-size: 0.9em;
+	}
+}
+ @media (min-width: 62em) {
+	 .responsive-table {
+		 font-size: 1em;
+	}
+}
+ .responsive-table thead {
+	 position: absolute;
+	 clip: rect(1px 1px 1px 1px);
+	/* IE6, IE7 */
+	 padding: 0;
+	 border: 0;
+	 height: 1px;
+	 width: 1px;
+	 overflow: hidden;
+}
+ @media (min-width: 48em) {
+	 .responsive-table thead {
+		 position: relative;
+		 clip: auto;
+		 height: auto;
+		 width: auto;
+		 overflow: auto;
+	}
+}
+ .responsive-table thead th {
+	 background-color: #007FFF;
+	 border: 1px solid #6699CC;
+	 font-weight: normal;
+	 text-align: center;
+	 color: white;
+}
+ .responsive-table thead th:first-of-type {
+	 text-align: left;
+}
+ .responsive-table tbody, .responsive-table tr, .responsive-table th, .responsive-table td {
+	 display: block;
+	 padding: 0;
+	 text-align: left;
+	 white-space: normal;
+}
+
+/* Remove underline from update and delete buttons in the table */
+.responsive-table tbody td a {
+  text-decoration: none;
+}
+
+
+ @media (min-width: 48em) {
+	 .responsive-table tr {
+		 display: table-row;
+	}
+}
+ .responsive-table th, .responsive-table td {
+	 padding: 0.5em;
+	 vertical-align: middle;
+}
+ @media (min-width: 30em) {
+	 .responsive-table th, .responsive-table td {
+		 padding: 0.75em 0.5em;
+	}
+}
+ @media (min-width: 48em) {
+	 .responsive-table th, .responsive-table td {
+		 display: table-cell;
+		 padding: 0.5em;
+	}
+}
+ @media (min-width: 62em) {
+	 .responsive-table th, .responsive-table td {
+		 padding: 0.75em 0.5em;
+	}
+}
+ @media (min-width: 75em) {
+	 .responsive-table th, .responsive-table td {
+		 padding: 0.75em;
+	}
+}
+ .responsive-table caption {
+	 margin-bottom: 1em;
+	 font-size: 1em;
+	 font-weight: bold;
+	 text-align: center;
+}
+ @media (min-width: 48em) {
+	 .responsive-table caption {
+		 font-size: 1.5em;
+	}
+}
+ .responsive-table tfoot {
+	 font-size: 0.8em;
+	 font-style: italic;
+}
+ @media (min-width: 62em) {
+	 .responsive-table tfoot {
+		 font-size: 0.9em;
+	}
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody {
+		 display: table-row-group;
+	}
+}
+ .responsive-table tbody tr {
+	 background-color: rgb(255, 255, 255);
+	 margin-bottom: 1em;
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody tr {
+		 display: table-row;
+		 border-width: 1px;
+	}
+}
+ .responsive-table tbody tr:last-of-type {
+	 margin-bottom: 0;
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody tr:nth-of-type(even) {
+		 background-color: rgba(0, 0, 0, .12);
+	}
+}
+ .responsive-table tbody th[scope="row"] {
+	 background-color: #007FFF;
+	 color: white;
+}
+ @media (min-width: 30em) {
+	 .responsive-table tbody th[scope="row"] {
+		 border-left: 1px solid#6699CC;
+		 border-bottom: 1px solid#6699CC;
+	}
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody th[scope="row"] {
+		 background-color: transparent;
+		 color: rgba(0, 0, 1, );
+		 text-align: left;
+	}
+}
+ .responsive-table tbody td {
+	 text-align: right;
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody td {
+		 border-left: 1px solid#6699CC;
+		 border-bottom: 1px solid#6699CC;
+		 text-align: center;
+	}
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody td:last-of-type {
+		 border-right:  1px solid#6699CC;
+	}
+}
+ .responsive-table tbody td[data-type=currency] {
+	 text-align: right;
+}
+ .responsive-table tbody td[data-title]:before {
+	 content: attr(data-title);
+	 float: left;
+	 font-size: 0.8em;
+	 color: rgba(0, 0, 0, .54);
+}
+ @media (min-width: 30em) {
+	 .responsive-table tbody td[data-title]:before {
+		 font-size: 0.9em;
+	}
+}
+ @media (min-width: 48em) {
+	 .responsive-table tbody td[data-title]:before {
+		 content: none;
+	}
+}
+ 
+
+.wrapper{
+	width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #4070f4;
+}
+.wrapper form .input-box {
+  height: 52px;
+  margin: 18px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+form .input-box input, 
+form .input-box textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Align radio buttons in a single line */
+form .input-box.radio-buttons {
+  display: flex;
+  
+  align-items:flex-start;
+}
+
+form .input-box.radio-buttons input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Add space between textareas */
+form .input-box.textarea-box textarea {
+  margin-top: 10px;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #4070f4;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group input[type="radio"] {
+  margin-right: 10px; /* Add space between radio buttons */
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #0e4bf1;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
