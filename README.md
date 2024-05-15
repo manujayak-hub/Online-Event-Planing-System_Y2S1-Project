@@ -18,7 +18,7 @@ This is an online event planning web application developed using Java, following
 - Servlets
 - JSP (JavaServer Pages)
 - MySQL (for database management)
-- Bootstrap (for front-end styling)
+
 
 ## Getting Started
 To run the application locally, follow these steps:
